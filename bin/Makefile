@@ -6,7 +6,6 @@ JULIA_EXEC_FLAG=$(JULIA_DIR)/bin/julia_success
 JULIA_EXEC=$(JULIA_DIR)/bin/julia
 JULIA_DEPS_FLAG = $(JULIA_DEPOT_DIR)/deps_success
 JULIA_SYS_IMAGE=$(JULIA_DIR)/../BaysorSysimage.so
-JULIA_CPU_TARGET='generic;sandybridge,-xsaveopt,clone_all;haswell,-rdrnd,base(2);ivybridge,base(1);broadwell,base(3);skylake,base(4)'
 SEGMENTATION_EXECUTABLE=./baysor
 
 all: $(SEGMENTATION_EXECUTABLE)
